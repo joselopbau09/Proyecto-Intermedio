@@ -1,5 +1,6 @@
-.container { 
-  margin: 0 10px;
+
+.contenedor { 
+  margin: 0 15px;
 }
 .logo {
     max-width: 100%;
@@ -12,7 +13,23 @@
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    font-family: 'Bakbak One', sans-serif;
 }
 .letra {
   color: white !important;
+}
+.botones-h {
+  column-gap: 10px;
+}
+.btn-Ingreso {
+  background-color: #286BCC;
+  color: white;
+  border: 0;
+  border-radius: 22px;
+  padding: 0 20px;
+}
+.btn-carrito {
+  background-color: transparent;
+  border: 1px solid white;
+  border-radius: 50%;
 }
